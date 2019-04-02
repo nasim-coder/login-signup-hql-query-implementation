@@ -1,7 +1,7 @@
 # login-signup-hql-query-implementation
 login, signup, accessing database using hibernate.
 
-THIS APPLICATION FULFILLED THE FOLLOEING REQUIREMENTS :
+THIS APPLICATION FULFILLED THE FOLLOWING REQUIREMENTS :
 
 Build a JSP/Servlet based web HR application that will - 
 1. Provide a login page for HR Manager
