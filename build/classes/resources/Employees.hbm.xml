@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    <class name = "beans.Employees" table ="Employees" schema="mydb" dynamic-insert="true" dynamic-update="true">
+    <id name ="id" column = "Emp_id" type="java.lang.Integer">
+    <generator class="increment"></generator>
+    </id>
+    <property name="name" column = "Emp_name" not-null="true"></property>
+    <property name="email" column = "email" not-null="true"></property>
+    <property name="salary" column="Emp_salary" not-null="true"></property>
+    <property name="password" column="password" not-null="true"></property>
+    </class>
+    </hibernate-mapping>
